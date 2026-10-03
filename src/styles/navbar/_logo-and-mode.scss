@@ -52,4 +52,15 @@
   .logo-img-light {
     transform: scale(0.7);
   }
+
+  .logo-and-mode {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .color-mode {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

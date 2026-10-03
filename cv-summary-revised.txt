@@ -1,0 +1,75 @@
+PIOTR GORSKI
+Full Stack developer
+customer-facing web platforms
+
+
+SUMMARY
+
+Started as mainly Front-end developer, but quickly took more responsibilities: backend, migrations of content, repositories and automations, search platform, CI/CD and general web knowledge.
+
+Worked alone or as the main author on most tasks and projects, taking work from prototype, UI/UX, through CI and production.
+
+
+RESPONSIBILITIES - WHAT I BUILT AND MAINTAINED
+
+Community and Partner Forum 
+Stack: Higher Logic Vanilla CMS(HTML, JavaScript, CSS/SCSS, Python)
+Summary: Got technical ownership on first day of internship. Apart from being a forum this platform also hosted important content such as: troubleshooting articles, product changelogs, announcements and ideation. 
+
+  - Owned theme and JavaScript customisations: custom components and layouts, cookie consent and GTM setup for a single-page app, localization, integrated forms(Microsoft Forms, FormAssembly) 
+  - Redesigned content structure and enabled internals to update content themselves.
+  - Wrote API tooling to migrate knowledge bases content between environments(custom CI/CD workflow) and platform itself(Changelogs content type change).
+  - Wrote a script for Ideation analysis - how many new ideas from users, upvotes/downvotes, monthly comparision.
+
+
+Support pages
+Stack: Adobe Experience Manager CMS(HTML, CSS/SCSS, Java, JavaScript) migrated to WordPress(HTML, CSS, PHP, JavaScript)
+Summary: 
+
+  - Migrated all AEM support content to WordPress and rebuilt theme, components and integrations.
+  - Built components: API integrated, search, service status banner, pagination.
+  - After Community platform decomission migrated planned content to WordPress.
+  > Support articles - updated sync automation(articles were stored in SalesForce). Cron moved from Jenkins to GitHub Actions. Sync repository (mostly Python) migrated from BitBucket to GitHub.
+  > Changelogs - enforced new organization-wide publishing standard(using Claude skills and Jira as source) for product teams and created the source-to-public-pages automation.
+  > Announcements - migrated content and standarized creation process for non-technical internals.   
+
+
+User guides (product documentation website)
+Stack: DITA-based static documentation, grunt/npm, Jenkins, AWS S3, GitHub Actions.
+Summary: Took over legacy project and made it stable. Later migrated frontend, deployment pipeline and publishing process(BitBucket, Jenkins > GitHub, Github Actions)
+
+  - Updated libraries, cleaned thousands of lines of legacy logic, integrated current support tools such as up-to-date search.  
+  - Migrated the repository from Bitbucket to GitHub and the publish pipeline from Jenkins to GitHub Actions with
+  OIDC to AWS, staging-then-production deploys and optimised S3 sync time siginificantly. Split content into its own repository with a publish workflow, pushing content to Artifactory.
+
+
+Search platform
+Stack: Coveo migrated to AddSearch
+Summary: Full technical resposibility of indexing/crawling data, custom UI overrides and integration into different platforms.
+
+  - Took over the platform when it had no owner and fixed indexing.
+  - Migrated Coveo to AddSearch. Remade crawling strategy and custom filters, backed-up analytics and reintegrated into different platforms.
+  - Implemented provided search library(search-as-you-type, facets, autosuggest, AI answers and AI
+  conversations - chatbot) with platform-specific theming and behavior on top of it.
+  - Helped with implementation into organization's product.
+
+
+statuspage.io
+Stack: HTML, CSS, JavaScript
+Summary: Web configuration part of platform and embedding in organization's services. Created a component with custom themed UI/UX.
+
+
+Salesforce Experience Cloud
+Stack: SalesForce Lighting CMS
+Summary: Single project - update UI for eService portal (premium customer support cases portal).
+
+
+TECHNICAL EXPERIENCE 
+      
+  HTML, JavaScript, CSS/SCSS, React, SPAs, PHP, Python, Java
+  
+Platforms      
+  Vanilla Forums CMS, WordPress, Adobe Experience Manager, Salesforce Experience Cloud and Knowledge, AddSearch, Coveo, Statuspage, Google Tag Manager, OneTrust
+
+Tools       
+  Claude Code, Microsoft Copilot, VS Code, Docker, GitHub Actions, AWS, Artifactory, Jenkins, Bitbucket

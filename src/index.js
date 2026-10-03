@@ -11,6 +11,13 @@ import arrows from './javascript/arrows'
 import archImages from './javascript/archImages'
 import intersectionObservers from './javascript/intersectionObservers'
 
+const currentYear = new Date().getFullYear()
+const currentYearEl = document.querySelector('#current-year')
+
+if (currentYearEl) {
+  currentYearEl.textContent = currentYear
+}
+
 spaceBackground()
 colorTheme()
 burgerMenu()
